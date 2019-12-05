@@ -30,6 +30,7 @@ Churn of a user can be identified through the **Cancellation** of the account
 **Sprakify_DSND.ipynb** Main file of the project, it demonstrates the process of using pyspark to explore the data and build the model.
 
 ## Result
+- Multiple ML algorithms were tried: Decision Tree, Logistic Regression, Random Forest, Gradient Boost
 - Logistic Regression can predict the likelyhood, if a user will churn or not, with an accuracy of: 0.8115 , and F1 score of:0.7949
 - The top 5 features that help to determine the likelyhood are:
     - Number of distinct artists a user listens to
@@ -39,5 +40,5 @@ Churn of a user can be identified through the **Cancellation** of the account
     - The number of songs added to a playlist
 
 
-The blog can be read[here]
+The blog can be read[here] https://medium.com/@varunv31/sparkify-a-data-science-approach-to-identify-if-a-customer-will-churn-or-not-8d132ab2582d
 
